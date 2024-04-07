@@ -15,8 +15,11 @@ RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     && docker-php-ext-install pdo pdo_mysql gd
 
+
 RUN apt-get -y install nodejs
 RUN apt-get -y install npm
+RUN apt-get install -y default-mysql-client \
+    && rm -rf /var/lib/apt/lists/*
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
