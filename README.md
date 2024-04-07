@@ -12,8 +12,6 @@
 
 ### Command to run the project
 
-- `cd src` or run the follwing commad from `src` folder.
-
 - if you are running the project for first time run:
 
     `docker-compose up --build`
@@ -21,11 +19,6 @@
 - else run 
 
     `docker-compose up`
-
-### How to stop the project
-- use the follwing command to stop the project
-    
-    `docker-compose down`
 
 ###  How to access phpmyadmin
 

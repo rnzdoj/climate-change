@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/var/www/html
+      - ./:/var/www/html
     ports:
       - "8000:8000" # Expose port 8000 of the container to port 8000 of the host
 

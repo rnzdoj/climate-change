@@ -6,6 +6,6 @@
     <title>Climate Change</title>
 </head>
 <body>
-    <h1>Climate Change</h1>
+    <h1>Welcome Page</h1>
 </body>
 </html>
