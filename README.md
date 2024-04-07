@@ -33,7 +33,7 @@
 
 - You can access laravel project at
 
-    `http:///localhost:8000`
+    `http://localhost:8000`
 
 ## Static Code Analyzer
 
